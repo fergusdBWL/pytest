@@ -15,3 +15,6 @@ def test_checkPing_google_com():
 def test_checkPing_xgoogle_com():
     assert(performPing("xgoogle.com") == 0)
 
+def test_checkPing_bbc_com():
+    assert(performPing("bbc.com") == 0)
+
