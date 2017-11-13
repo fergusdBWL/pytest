@@ -1,6 +1,7 @@
 #!/usr/bin/python
+# do some network pinging using the PingUtils package
+# this package is part of the test infrastructure defined here
 
-import os
 from utils import PingUtils
 
 pingUtils = PingUtils()

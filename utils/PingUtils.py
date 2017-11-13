@@ -1,4 +1,6 @@
 #!/usr/bin/python
+# python class to demonstrate the use of a package within the test framework
+# in this case a class that allows things to be pinged
 
 import os
 
