@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 import os
-from utils import pinger
+from utils import performPing
 
 #def performPing(hostname):
 #    response = os.system("ping -c 1 " + hostname)
