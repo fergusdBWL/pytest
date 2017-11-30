@@ -22,7 +22,7 @@ def test_checkPing_google_com():
 @pytest.mark.testset1
 @pytest.mark.xfail
 def test_checkPing_xgoogle_com():
-  assert(pingUtils.singlePing("xgoogle.com") == 1)
+  assert(pingUtils.singlePing("xgoogle.com") == 0)
 
 @pytest.mark.test6
 @pytest.mark.ping
